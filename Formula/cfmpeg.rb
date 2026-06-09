@@ -1,26 +1,26 @@
 class Cfmpeg < Formula
   desc "Cloud ffmpeg CLI that runs ffmpeg jobs on remote containers"
   homepage "https://github.com/cfmpeg/cfmpeg-cli"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.3/cfmpeg-darwin-arm64.tar.gz"
-      sha256 "4164cd794b625495fcebc8333f5150bc86b8778c1f00b27dceac78914e46c9f9"
+      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.4/cfmpeg-darwin-arm64.tar.gz"
+      sha256 "ff8a33291c9332a5d2be6393a2646da6371b7333be5cdbed29e24a6b8fc39e9f"
     else
-      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.3/cfmpeg-darwin-x64.tar.gz"
-      sha256 "3bfc57654b3670555662b7e486c7091ad11ff044b56e6a61eca08bd1d07cf3a5"
+      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.4/cfmpeg-darwin-x64.tar.gz"
+      sha256 "9eab46480c4f8608cfb8c5560cc4ad7e013195527e3c387cd2dd0f02f2a2a43d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.3/cfmpeg-linux-arm64.tar.gz"
-      sha256 "98be7a888bd4f9c1546782701c76bb04ce1d2c26bb1a9fe2b092ae00a2b1a4c1"
+      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.4/cfmpeg-linux-arm64.tar.gz"
+      sha256 "12af46a5b2c27375d1f072f09a2d2cd51720a42af288d551f5a06661a7a27f12"
     else
-      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.3/cfmpeg-linux-x64.tar.gz"
-      sha256 "3212f572c82f82ae5a73ec03046d6d408397ce64cd3ad08b96c1039145de2ac9"
+      url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.4/cfmpeg-linux-x64.tar.gz"
+      sha256 "0edddca74f82b4ad1c1ba8a12b05ecac31ce61580b81afb1499f1e0e3b8fd6ab"
     end
   end
 
