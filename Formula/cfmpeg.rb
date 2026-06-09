@@ -7,20 +7,20 @@ class Cfmpeg < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.0/cfmpeg-darwin-arm64.tar.gz"
-      sha256 "b294cbfdaeef55eb0c25846ba48eeeff2f8abc23183bcf98e1f688ec2dd748bc"
+      sha256 "6bdfd8d7b7341435a4c8e5229608ece88983d7555013b4be09533584b65aef3e"
     else
       url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.0/cfmpeg-darwin-x64.tar.gz"
-      sha256 "e0a3dfb3ac4668aefce27370816a098e3ca7518b24fa19e6efd7c50476635818"
+      sha256 "dfea3c3940b5d07d9161135efeddb08797f9ba10bd7edb571bcd3d2ded3e50ef"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.0/cfmpeg-linux-arm64.tar.gz"
-      sha256 "b172c75c02537b3644cca5c194c2758655c73d31147e1ba6deabda0701ab31de"
+      sha256 "d86bbf7d1ccb0d9cb92cf329a25d6e1ec4ef7549b0ae4f0d32baeda3b574290f"
     else
       url "https://github.com/cfmpeg/cfmpeg-cli/releases/download/v0.1.0/cfmpeg-linux-x64.tar.gz"
-      sha256 "c805b3053f219d111e64bed2bf6c23fc45ef74e91a29b07049ce907db9459e70"
+      sha256 "052e0e238a16e5b14292693571b29a350712d425203d55a0916db2e776737d35"
     end
   end
 
